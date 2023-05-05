@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6BBC2DF62A052CAD005EF13F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC2DF52A052CAD005EF13F /* main.c */; };
+		6BBC2E002A052CE2005EF13F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC2DFD2A052CE2005EF13F /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,10 @@
 
 /* Begin PBXFileReference section */
 		6BBC2DF22A052CAD005EF13F /* progetto_IAP_22_23 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = progetto_IAP_22_23; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BBC2DF52A052CAD005EF13F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6BBC2DFC2A052CE1005EF13F /* playermode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playermode.h; sourceTree = "<group>"; };
+		6BBC2DFD2A052CE2005EF13F /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6BBC2DFE2A052CE2005EF13F /* functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		6BBC2DFF2A052CE2005EF13F /* ai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ai.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,10 @@
 		6BBC2DE92A052CAD005EF13F = {
 			isa = PBXGroup;
 			children = (
-				6BBC2DF42A052CAD005EF13F /* progetto_IAP_22_23 */,
+				6BBC2DFF2A052CE2005EF13F /* ai.h */,
+				6BBC2DFE2A052CE2005EF13F /* functions.h */,
+				6BBC2DFD2A052CE2005EF13F /* main.c */,
+				6BBC2DFC2A052CE1005EF13F /* playermode.h */,
 				6BBC2DF32A052CAD005EF13F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +58,6 @@
 				6BBC2DF22A052CAD005EF13F /* progetto_IAP_22_23 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6BBC2DF42A052CAD005EF13F /* progetto_IAP_22_23 */ = {
-			isa = PBXGroup;
-			children = (
-				6BBC2DF52A052CAD005EF13F /* main.c */,
-			);
-			path = progetto_IAP_22_23;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BBC2DF62A052CAD005EF13F /* main.c in Sources */,
+				6BBC2E002A052CE2005EF13F /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
